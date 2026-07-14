@@ -1,0 +1,177 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.side-nav img {
+    width: 30px;
+}
+
+.head {
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: blueviolet;
+    height: 85px;
+    position: sticky;
+    top: 0;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.head a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+header nav ul li {
+    padding: 20px;
+}
+
+.head .head-wrap img {
+    padding: 36px 10px;
+}
+
+.side-nav button {
+    border-radius: 34%;
+    height: 48px;
+    width: 166px;
+    border: 2px solid transparent;
+    background-color: orange;
+}
+
+.side-nav {
+    margin: 25px;
+}
+
+.banner {
+    background-image: url(https://preview.colorlib.com/theme/edumark/img/banner/banner.png);
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: left;
+    font-size: 59px;
+    padding: 10px;
+    margin: 91px;
+    color: white;
+}
+
+.banner img {
+    padding: 27px;
+}
+
+.banner .text a {
+    font-size: 16px;
+    color: #fff;
+    padding: 22px 40px;
+    background: #04D2C8;
+    text-decoration: none;
+    border-radius: 40%;
+    border: 3px solid transparent;
+    font-size: 20px;
+}
+
+.last-wrap {
+    background-color: #cecefa
+    padding: 115px;
+}
+
+.last-wrap h2 {
+    color: purple;
+    margin: 20px 0px;
+    font-size:30px;
+    line-height: 35px;
+    padding: 10px 0px;
+}
+
+.last-wrap p {
+    color: black;
+    text-align: left;
+
+}
+.last-wrap .content{
+        margin: 46px 41px 0px 50px;
+        line-height: 25px;
+}
+
+.last-wrap .inner .course .text-info {
+    position: relative;
+    content: "";
+    width: 300px;
+    height: 250px;
+    background-color: #FD8E5E;
+    border-radius: 50%;
+    opacity: 0.7;
+    z-index: 3;
+
+    /* right: 120px; */
+    /* top: 40px; */
+    top: 737px;
+}
+
+.last-wrap .inner .course-blue .text-info {
+    /* position: relative;
+    margin: right 50px;; */
+}
+
+.last-wrap .inner .course-blue .text-info {
+    position: relative;
+    content: "";
+    width: 300px;
+    height: 250px;
+    background: #5DB2FF;
+    border-radius: 50%;
+    opacity: .7;
+    top: 930px;
+    right: 250px;
+    z-index: 1;
+
+}
+
+.last-wrap .inner .course-sky .text-info {
+    position: relative;
+    content: "";
+    width: 300px;
+    height: 250px;
+    background: #025752;
+    border-radius: 50%;
+    opacity: .7;
+    right: 90px;
+    z-index: 2;
+}
+
+.last-wrap .inner span {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    /* line-height: 90px; */
+    text-align: center;
+}
+
+.last-wrap .inner {
+    margin: 40px 90px;
+    justify-content: space-evenly
+}
+.last-wrap .boxed_btn{
+    margin: 92px;
+    border-radius: 30%;
+    background-color: #5DB2FF;
+    height: 40px;
+    width: 70px;
+}
+.last-wrap a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
